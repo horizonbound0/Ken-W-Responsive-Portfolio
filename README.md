@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ken-W-Responsive-Portfolio
 
 ## Description
@@ -65,3 +66,29 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+=======
+# Ken W Responsive Portfolio
+## Description
+
+This is going to be my portfolio that I send potential clients and employers I want to work for. My goal is to use everything I've learned in the past two weeks to make a responsive, and attractive portfolio that showcases my ability and past accomplishments and projects.
+
+## Installation
+
+NA
+
+## Usage
+
+NA
+
+## Credits
+
+-[normalize.css](https://necolas.github.io/normalize.css/) taken from [Necolas on GitHub](https://github.com/necolas)
+
+## License
+
+[This repo](https://github.com/horizonbound0/Ken-W-Responsive-Portfolio) uses the [MIT license](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), as listed on GitHub.
+
+## Features
+
+This portfolio will feature an About Me section, a section for my works, ways to contact me, and a link to my resume.
+>>>>>>> 0150b9bf94ce8a92fc1023b5464fcdabc365beaf
