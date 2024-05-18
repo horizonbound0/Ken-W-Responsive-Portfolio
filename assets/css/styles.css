@@ -1,65 +1,84 @@
-/* Section for CSS variables */
 :root {
-    --main-bg-color: #313E50;
-    --main-border-color: #8A95A5;
-    --main-section-bg-color: #A9FFF7;
-    --highlighted-section-bg-color: #bdfaf4;
-    --shaded-section-bg-color: #00ceb9;
-    --main-text-color: #0A8754;
-    --highlighted-text-color: #2fdb96;
-    --shaded-text-color: #01643d;
-    --main-text-shadow-color: #E0BE36;
-    --highlighted-text-shadow-color: #ffffff;
-    --shaded-text-shadow-color: #b69204;
+    
 }
+
 * {
-    box-sizing: border-box;
-    padding: 2px;
-    color: var(--main-text-color);
-    text-shadow: 5px 5px 15px var(--shaded-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
 }
-body {
-    background-color: var(--main-bg-color);
-}
+
 .header {
     display: flex;
-    background-color: var(--main-section-bg-color);
-    box-shadow: 10px 10px 10px var(--main-text-shadow-color);
-    border: 10px ridge var(--highlighted-text-color);
-    align-items: center;
     justify-content: space-between;
+    border: solid 1px;
 }
-.links {
-    display: flex;
-    background-color: var(--main-section-bg-color);
+
+.header ul {
     list-style-type: none;
 }
-.links li {
-    margin: 2px;
-    padding: 2px;
-}
-.content {
+
+.hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 200px;
+    border: solid 1px;
 }
-.cards {
+
+.hero-cards {
     display: flex;
-    background-color: var(--shaded-section-bg-color);
-    margin: 2px;
-    border: 2px var(--main-border-color);
-    width: 500px;
-    font-size: 24px;
-    box-shadow: 10px 10px 10px var(--shaded-text-shadow-color);
-    border: 10px ridge var(--highlighted-text-color);
+    justify-content: space-around;
 }
-.card-section {
-    border-left: 2px solid var(--main-border-color);
-    text-indent: 20px;
-    font-size: smaller;
+
+.hero-card {
+    
+    border: solid 1px;
 }
-.works-list {
+
+.work-container {
+    display: flex;
+    justify-content: center;
+    border: solid 1px;
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: solid 1px;
+}
+
+.work-title {
+    border: solid 1px;
+}
+
+.work-desc {
+    border: solid 1px;
+}
+
+.contact-resume {
+    display: flex;
+    border: solid 1px;
+    justify-content: space-around;
+}
+
+.contact-container {
+    border: solid 1px;
+}
+
+.resume-container {
+    border: solid 1px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+}
+
+.footer ul {
     list-style-type: none;
+}
+
+.footer-cards {
+    align-self: center;
+    border: solid 1px;
 }
