@@ -120,6 +120,10 @@
     content: "📝";
 }
 
+.resume-card {
+    border: solid 1px var(--main-border-color);
+}
+
 .footer {
     display: flex;
     flex-direction: row;
