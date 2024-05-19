@@ -17,6 +17,10 @@ NA
 
 -[Social Media Icons](https://www.iconfinder.com/social-media-icons) downloaded from [iconfinder](https://www.iconfinder.com/)
 
+-[Bacon Ipsum filler text](https://baconipsum.com/) for the resume section!
+
+-Picture for Pathfinder Project created by Ken Wagner using ImagineArt: AI Art Generator
+
 ## License
 
 [This repo](https://github.com/horizonbound0/Ken-W-Responsive-Portfolio) uses the [MIT license](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt), as listed on GitHub.

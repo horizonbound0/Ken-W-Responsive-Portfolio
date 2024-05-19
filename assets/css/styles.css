@@ -1,5 +1,5 @@
 :root {
-    
+    --main-border-color: black;
 }
 
 * {
@@ -7,10 +7,15 @@
     margin: 5px;
 }
 
+body {
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    border: solid 1px;
+    border: solid 2px var(--main-border-color);
 }
 
 .header h1 {
@@ -25,7 +30,7 @@
 .hero-container {
     display: flex;
     flex-direction: column;
-    border: solid 1px;
+    border: solid 2px var(--main-border-color);
 }
 
 .hero-cards {
@@ -35,14 +40,14 @@
 
 .hero-card {
     flex: 1 1;
-    border: solid 1px;
+    border: solid 1px var(--main-border-color);
     align-content: center;
 }
 
 .work-container {
     display: flex;
     justify-content: center;
-    border: solid 1px;
+    border: solid 2px var(--main-border-color);
 }
 
 .work-card {
@@ -50,12 +55,16 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: solid 1px;
+    border: solid 1px var(--main-border-color);
 }
 
 .work-anchor {
     color: black;
     text-decoration: none;
+}
+
+.work-anchor img {
+    width:100%;
 }
 
 /*
@@ -67,24 +76,26 @@
 */
 
 .work-title {
-    border: solid 1px;
+    border: solid 1px var(--main-border-color);
     text-align: center;
 }
 
 .work-desc {
     margin-top: 30%;
-    border: solid 1px;
+    border: solid 1px var(--main-border-color);
 }
 
 .contact-resume {
     display: flex;
-    border: solid 1px;
+    border: solid 2px var(--main-border-color);
     justify-content: space-around;
 }
 
-.contact-container {
-    border: solid 1px;
+.cont-res-card {
+    flex: 1 1;
+    border: solid 1px var(--main-border-color);
     height: 300px;
+    overflow: hidden;
 }
 
 .contact-menu {
@@ -113,24 +124,24 @@
     height: 100%;
 }
 
-.resume-container {
-    border: solid 1px;
-}
-
 .resume-container a::after {
     content: "📝";
+}
+
+.resume-card {
+    border: solid 1px var(--main-border-color);
 }
 
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: solid 1px;
+    border: solid 2px var(--main-border-color);
 }
 
 .footer-cards {
     align-self: center;
-    border: solid 1px;
+    border: solid 1px var(--main-border-color);
 }
 
 .social-links {
@@ -139,6 +150,6 @@
 }
 
 .social-links img {
-    border: solid 1px;
+    border: solid 1px var(--main-border-color);
     width: 25px;
 }
