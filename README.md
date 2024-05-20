@@ -19,7 +19,7 @@ NA
 
 -[Bacon Ipsum filler text](https://baconipsum.com/) for the resume section!
 
--Picture for Pathfinder Project created by Ken Wagner using ImagineArt: AI Art Generator
+-Cover Art for the [Pathfinder Core Rulebook](https://paizo.com/products/btpy88yj?Pathfinder-Roleplaying-Game-Core-Rulebook) created by [Paizo](https://paizo.com/)
 
 ## License
 
