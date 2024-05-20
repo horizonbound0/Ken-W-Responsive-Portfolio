@@ -1,5 +1,14 @@
 :root {
-    --main-border-color: black;
+    --main-color: #6701e1;
+    --main-bg:#d1acff;
+    --second-color: #2e069d;
+    --second-bg:#b49afc;
+    --third-color: #8b01e1;
+    --third-bg:#e6bbff;
+    --fourth-color: #0146E1;
+    --fourth-bg:#adc3f8;
+    --fifth-color: #01319D;
+    --fifth-bg:#9ab8ff;
 }
 
 * {
@@ -15,7 +24,10 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    border: solid 2px var(--main-border-color);
+    border: solid 10px var(--fourth-color);
+    background-color: var(--fourth-bg);
+    color: var(--main-color);
+    border-radius: 20px 0 20px 0;
 }
 
 .header h1 {
@@ -30,13 +42,10 @@ body {
 .hero-container {
     display: flex;
     justify-content: center;
-    border: solid 2px var(--main-border-color);
-}
-
-.face-title {
-    float: left;
-    display: flex;
-    flex-direction: column;
+    border: solid 10px var(--fifth-color);
+    background-color: var(--fifth-bg);
+    color: var(--second-color);
+    border-radius: 20px 0 20px 0;
 }
 
 .hero-cards {
@@ -44,44 +53,59 @@ body {
     flex-wrap: wrap;
 }
 
+.hero-cards>img {
+    border: ridge 10px var(--fifth-color);
+    border-radius: 3px;
+}
+
 .hero-card {
     height: 300px;
     width: 300px;
     flex: 0 0 300px;
     flex-wrap: wrap;
-    border: solid 1px var(--main-border-color);
 }
 
 .work-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: solid 2px var(--main-border-color);
+    border: solid 10px var(--second-color);
+    background-color: var(--second-bg);
+    color: var(--third-color);
+    border-radius: 20px 0 20px 0;
+}
+
+.labels h2 {
+    position: relative;
+    top: 50%;
+    transform:rotate(-45deg);
 }
 
 .work-card {
     flex: 0 0 20%;
-    height: 550px;
-    width: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px var(--main-border-color);
 }
 
 .work-title {
-    border: solid 1px var(--main-border-color);
     text-align: center;
 }
+
+/* ----- saving this for when I'm ready to add descriptions of my work ----
 
 .work-desc {
     border: solid 1px var(--main-border-color);
 }
+*/
 
 .resume {
     display: flex;
     flex-wrap: wrap;
-    border: solid 2px var(--main-border-color);
+    border: solid 10px var(--main-color);
+    background-color: var(--main-bg);
+    color: var(--fourth-color);
+    border-radius: 20px 0 20px 0;
     justify-content: center;
 }
 
@@ -90,8 +114,12 @@ body {
     text-align: center;
 }
 
+.cont-info a::before {
+    content: "📧 ";
+    line-height:0%;
+}
+
 .cont-res-card {
-    border: solid 1px var(--main-border-color);
     width: 750px;
     overflow: hidden;
 }
@@ -101,7 +129,6 @@ body {
 }
 
 .resume-card {
-    border: solid 1px var(--main-border-color);
 }
 
 .footer {
@@ -109,12 +136,22 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: solid 2px var(--main-border-color);
+    border: solid 10px var(--third-color);
+    background-color: var(--third-bg);
+    color: var(--fifth-color);
+    border-radius: 20px 0 20px 0;
 }
 
 .footer-cards {
     align-self: center;
-    border: solid 1px var(--main-border-color);
+}
+
+.footer-cards h3::before {
+    content: "☎";
+}
+
+.footer-cards h3::after {
+    content: "👇";
 }
 
 .social-links {
@@ -123,6 +160,5 @@ body {
 }
 
 .social-links img {
-    border: solid 1px var(--main-border-color);
     width: 25px;
 }
