@@ -3,6 +3,10 @@
 
 This is going to be my portfolio that I send potential clients and employers I want to work for. My goal is to use everything I've learned in the past two weeks to make a responsive, and attractive portfolio that showcases my ability and past accomplishments and projects.
 
+Here is the link to [my responsive portfolio](https://horizonbound0.github.io/Ken-W-Responsive-Portfolio/)
+
+![Here is a screenshot of my responsive portfolio page](image.png)
+
 ## Installation
 
 NA
