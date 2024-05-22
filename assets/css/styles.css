@@ -133,8 +133,6 @@ body {
     content: "📝";
 }
 
-.resume-card {}
-
 .footer {
     display: flex;
     flex-direction: row;
