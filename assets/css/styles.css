@@ -1,14 +1,14 @@
 :root {
     --main-color: #6701e1;
-    --main-bg:#d1acff;
+    --main-bg: #d1acff;
     --second-color: #2e069d;
-    --second-bg:#b49afc;
+    --second-bg: #b49afc;
     --third-color: #8b01e1;
-    --third-bg:#e6bbff;
+    --third-bg: #e6bbff;
     --fourth-color: #0146E1;
-    --fourth-bg:#adc3f8;
+    --fourth-bg: #adc3f8;
     --fifth-color: #01319D;
-    --fifth-bg:#9ab8ff;
+    --fifth-bg: #9ab8ff;
 }
 
 * {
@@ -19,6 +19,10 @@
 body {
     background-color: aliceblue;
     box-sizing: border-box;
+}
+
+.body-cards, .hero-cards>img, .work-card img {
+    box-shadow: 10px 10px 30px var(--second-color);
 }
 
 .header {
@@ -78,7 +82,8 @@ body {
 .labels h2 {
     position: relative;
     top: 50%;
-    transform:rotate(-45deg);
+    transform: rotate(-45deg);
+    text-shadow: 10px 10px 30px var(--second-color);
 }
 
 .work-card {
@@ -116,7 +121,7 @@ body {
 
 .cont-info a::before {
     content: "📧 ";
-    line-height:0%;
+    line-height: 0%;
 }
 
 .cont-res-card {
@@ -126,9 +131,6 @@ body {
 
 .resume-container a::after {
     content: "📝";
-}
-
-.resume-card {
 }
 
 .footer {
@@ -161,4 +163,31 @@ body {
 
 .social-links img {
     width: 25px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    .labels {
+        display: none;
+    }
+
+    .hero-container {
+        height: 675px;
+    }
+    
+    .hero-cards>img {
+        width: 50%;
+    }
+
+    .hero-card {
+        height: 300px;
+        width: 300px;
+        flex: 0 0 300px;
+        flex-wrap: wrap;
+    }
+
+    .cont-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
